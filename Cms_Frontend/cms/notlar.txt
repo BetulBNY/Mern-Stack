@@ -1,0 +1,15 @@
+// src/App.js
+
+import React from 'react';
+import EditablePage from './editor/EditablePage'; // Import our new main component
+import './App.css'; // You might want a basic CSS file for some global styles
+
+function App() {
+  return (
+    <div className="App">
+      <EditablePage />
+    </div>
+  );
+}
+
+export default App;
