@@ -1,0 +1,13 @@
+# Node modüllerini izleme
+node_modules/
+
+# Derleme / paketleme klasörleri
+dist/
+build/
+
+# Ortam değişkenleri
+.env
+
+# İstenmeyen OS dosyaları
+.DS_Store
+Thumbs.db
