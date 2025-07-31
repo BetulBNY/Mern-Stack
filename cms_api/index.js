@@ -9,7 +9,7 @@ const cors = require('cors');
 // ------------------------------------
 const app = express();
 const PORT = process.env.PORT || 4000;
-const MONGO_URI = "";
+const MONGO_URI = process.env.MONGO_URI;
 
 if (!MONGO_URI) {
   console.error("Hata: MONGO_URI environment değişkeni bulunamadı. Lütfen .env dosyanızı kontrol edin.");
